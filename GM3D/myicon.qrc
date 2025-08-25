@@ -1,0 +1,14 @@
+<RCC>
+    <qresource prefix="/icon">
+        <file>myicon/cube.png</file>
+        <file>myicon/custom.png</file>
+        <file>myicon/cylinder.png</file>
+        <file>myicon/HomeIcon.png</file>
+        <file>myicon/output.png</file>
+        <file>myicon/prismoid.png</file>
+        <file>myicon/setting.png</file>
+        <file>myicon/sphere.png</file>
+        <file>myicon/forward.png</file>
+        <file>myicon/profile.png</file>
+    </qresource>
+</RCC>

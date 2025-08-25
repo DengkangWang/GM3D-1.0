@@ -1,0 +1,236 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Modeling</class>
+ <widget class="QWidget" name="Modeling">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1200</width>
+    <height>800</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <widget class="QGroupBox" name="groupBox">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>0</y>
+     <width>541</width>
+     <height>80</height>
+    </rect>
+   </property>
+   <property name="title">
+    <string>Add Model</string>
+   </property>
+   <widget class="QPushButton" name="AddSphereBtn">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>30</y>
+      <width>80</width>
+      <height>40</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Sphere</string>
+    </property>
+    <property name="icon">
+     <iconset resource="myicon.qrc">
+      <normaloff>:/icon/myicon/sphere.png</normaloff>:/icon/myicon/sphere.png</iconset>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="AddCuboidBtn">
+    <property name="geometry">
+     <rect>
+      <x>120</x>
+      <y>30</y>
+      <width>80</width>
+      <height>40</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Cuboid</string>
+    </property>
+    <property name="icon">
+     <iconset resource="myicon.qrc">
+      <normaloff>:/icon/myicon/cube.png</normaloff>:/icon/myicon/cube.png</iconset>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="AddCylinderBtn">
+    <property name="geometry">
+     <rect>
+      <x>230</x>
+      <y>30</y>
+      <width>80</width>
+      <height>40</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Cylinder</string>
+    </property>
+    <property name="icon">
+     <iconset resource="myicon.qrc">
+      <normaloff>:/icon/myicon/cylinder.png</normaloff>:/icon/myicon/cylinder.png</iconset>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="AddPrismBtn">
+    <property name="geometry">
+     <rect>
+      <x>340</x>
+      <y>30</y>
+      <width>80</width>
+      <height>40</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Prismoid</string>
+    </property>
+    <property name="icon">
+     <iconset resource="myicon.qrc">
+      <normaloff>:/icon/myicon/prismoid.png</normaloff>:/icon/myicon/prismoid.png</iconset>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="AddIrreBtn">
+    <property name="geometry">
+     <rect>
+      <x>450</x>
+      <y>30</y>
+      <width>80</width>
+      <height>40</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Irregular</string>
+    </property>
+    <property name="icon">
+     <iconset resource="myicon.qrc">
+      <normaloff>:/icon/myicon/custom.png</normaloff>:/icon/myicon/custom.png</iconset>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QGroupBox" name="groupBox_2">
+   <property name="geometry">
+    <rect>
+     <x>620</x>
+     <y>0</y>
+     <width>571</width>
+     <height>81</height>
+    </rect>
+   </property>
+   <property name="title">
+    <string>Operate</string>
+   </property>
+   <widget class="QPushButton" name="FieldParamSetBtn">
+    <property name="geometry">
+     <rect>
+      <x>30</x>
+      <y>30</y>
+      <width>80</width>
+      <height>40</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Setting</string>
+    </property>
+    <property name="icon">
+     <iconset resource="myicon.qrc">
+      <normaloff>:/icon/myicon/setting.png</normaloff>:/icon/myicon/setting.png</iconset>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="OutputBtn">
+    <property name="geometry">
+     <rect>
+      <x>140</x>
+      <y>30</y>
+      <width>80</width>
+      <height>40</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Model</string>
+    </property>
+    <property name="icon">
+     <iconset resource="myicon.qrc">
+      <normaloff>:/icon/myicon/output.png</normaloff>:/icon/myicon/output.png</iconset>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="OutputBtn_2">
+    <property name="geometry">
+     <rect>
+      <x>250</x>
+      <y>30</y>
+      <width>80</width>
+      <height>40</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Data</string>
+    </property>
+    <property name="icon">
+     <iconset resource="myicon.qrc">
+      <normaloff>:/icon/myicon/output.png</normaloff>:/icon/myicon/output.png</iconset>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="ForwardBtn">
+    <property name="geometry">
+     <rect>
+      <x>360</x>
+      <y>30</y>
+      <width>80</width>
+      <height>40</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Forward</string>
+    </property>
+    <property name="icon">
+     <iconset resource="myicon.qrc">
+      <normaloff>:/icon/myicon/forward.png</normaloff>:/icon/myicon/forward.png</iconset>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="profileBtn">
+    <property name="geometry">
+     <rect>
+      <x>470</x>
+      <y>30</y>
+      <width>80</width>
+      <height>40</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Profile</string>
+    </property>
+    <property name="icon">
+     <iconset resource="myicon.qrc">
+      <normaloff>:/icon/myicon/profile.png</normaloff>:/icon/myicon/profile.png</iconset>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QTreeView" name="treeView">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>90</y>
+     <width>120</width>
+     <height>561</height>
+    </rect>
+   </property>
+  </widget>
+ </widget>
+ <tabstops>
+  <tabstop>FieldParamSetBtn</tabstop>
+  <tabstop>OutputBtn</tabstop>
+  <tabstop>AddPrismBtn</tabstop>
+  <tabstop>AddIrreBtn</tabstop>
+  <tabstop>AddSphereBtn</tabstop>
+  <tabstop>AddCuboidBtn</tabstop>
+  <tabstop>AddCylinderBtn</tabstop>
+ </tabstops>
+ <resources>
+  <include location="myicon.qrc"/>
+ </resources>
+ <connections/>
+</ui>

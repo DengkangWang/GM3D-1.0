@@ -1,0 +1,247 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Forwarding</class>
+ <widget class="QMainWindow" name="Forwarding">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>900</width>
+    <height>600</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QGroupBox" name="groupBox">
+    <property name="geometry">
+     <rect>
+      <x>740</x>
+      <y>370</y>
+      <width>151</width>
+      <height>181</height>
+     </rect>
+    </property>
+    <property name="title">
+     <string/>
+    </property>
+    <widget class="QPushButton" name="SelectItemBtn">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>20</y>
+       <width>131</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>10</pointsize>
+       <bold>true</bold>
+      </font>
+     </property>
+     <property name="text">
+      <string>Forwarding</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="BackBtn">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>140</y>
+       <width>131</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>10</pointsize>
+       <bold>true</bold>
+      </font>
+     </property>
+     <property name="text">
+      <string>Back</string>
+     </property>
+    </widget>
+    <widget class="QComboBox" name="comboBox">
+     <property name="geometry">
+      <rect>
+       <x>70</x>
+       <y>100</y>
+       <width>71</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>10</pointsize>
+       <bold>true</bold>
+      </font>
+     </property>
+     <item>
+      <property name="text">
+       <string>G</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>Gxx</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>Gxy</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>Gxz</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>Gyy</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>Gyz</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>Gzz</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>T</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>Hax</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>Hay</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>Za</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>Bxx</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>Bxy</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>Bxz</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>Byy</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>Byz</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>Bzz</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>Tx</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>Ty</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>Tz</string>
+      </property>
+     </item>
+    </widget>
+    <widget class="QLabel" name="label">
+     <property name="geometry">
+      <rect>
+       <x>20</x>
+       <y>100</y>
+       <width>41</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>10</pointsize>
+       <bold>true</bold>
+      </font>
+     </property>
+     <property name="text">
+      <string>Draw</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="SaveDataBtn">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>60</y>
+       <width>131</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>10</pointsize>
+       <bold>true</bold>
+      </font>
+     </property>
+     <property name="text">
+      <string>Save Data</string>
+     </property>
+    </widget>
+   </widget>
+   <widget class="QTreeView" name="treeView">
+    <property name="geometry">
+     <rect>
+      <x>740</x>
+      <y>10</y>
+      <width>150</width>
+      <height>341</height>
+     </rect>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>900</width>
+     <height>21</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
