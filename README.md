@@ -4,7 +4,7 @@
 
 **G&M3D 1.0** provides an intuitive and flexible environment for constructing geological models and performing fast forward modeling of gravity and magnetic fields.
 
-`GM3D/` contains the source code of **G&M3D 1.0**.
+`GM3D\` contains the source code of **G&M3D 1.0**.
 
 Run the executable: 
 
